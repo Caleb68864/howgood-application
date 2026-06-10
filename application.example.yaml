@@ -1,0 +1,17 @@
+api:
+  endpoint: "https://example.com/apply"
+  defaultSecret: "replace-with-published-secret"
+  secretEnvVar: "APPLICATION_HMAC_SECRET"
+
+payload:
+  name: "Your Name"
+  email: "your.email@example.com"
+  resume: "https://example.com/resume.pdf"
+  location: "City, State, Country"
+  linkedin: "https://www.linkedin.com/in/your-profile/"
+  codeLink: "https://github.com/your-username/howgood-application"
+  yearsPython: 0
+  yearsDjango: 0
+  repos: "https://github.com/your-username"
+  notes: >-
+    Add anything else you would like the application reviewer to know.
